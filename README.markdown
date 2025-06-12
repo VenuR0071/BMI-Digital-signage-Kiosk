@@ -145,23 +145,6 @@ The BMI Digital Signage Kiosk is an interactive health monitoring system designe
 3. **View Results**
    - Results display user name, ID, height, weight, BMI, BMI category, and health tips (e.g., water intake).
 
-## Project Structure
-
-```
-BMI Kiosk/
-├── bmi.py                  # Main script for BMI calculation and MQTT coordination
-├── frontend.py             # Facial recognition and voice input authentication
-├── functions.py            # BMI calculation and health tip logic
-├── display.py              # Result display module
-├── weightpublish.py        # Publishes weight trigger to MQTT
-├── weightsubscribe.py      # Subscribes to weight data from MQTT
-├── heightpublish.py        # Publishes height trigger to MQTT
-├── heightsubscribe.py      # Subscribes to height data from MQTT
-├── show_text.py            # Health tip strings (user to provide)
-├── requirements.txt        # Python dependencies
-├── README.md               # Project documentation
-```
-
 ## Limitations and Future Improvements
 
 - **Current Limitations**:
